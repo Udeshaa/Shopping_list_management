@@ -10,7 +10,7 @@ const AddPreOrder = () => {
     fullname: '',
     email: '',
     productname: '',
-    quantity: '',
+    quantity: '', 
     expecteddate: '',
     notes: ''
   });
