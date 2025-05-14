@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 
 const AddPreOrder = () => {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({ 
     fullname: '',
     email: '',
     productname: '',
