@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Eye } from "lucide-react"; 
 import { useNavigate } from "react-router-dom"; 
 import Header from "./Header";
-import Footer from "./Footer";
+import Footer from "./Footer"; 
 
 const AllPayments = () => {
   const [payments, setPayments] = useState([]);
